@@ -1,5 +1,5 @@
 #!/bin/bash
-service httpd start
-chkconfig httpd on
-service mysqld start
-chkconfig mysqld on
+systemctl start httpd
+systemctl enable httpd
+systemctl start mariadb
+systemctl enable mariadb
