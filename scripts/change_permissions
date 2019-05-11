@@ -1,2 +1,3 @@
 #!/bin/bash
 chmod -R 777 /var/www/html
+rm -rf /etc/httpd/conf.d/welcome.conf
